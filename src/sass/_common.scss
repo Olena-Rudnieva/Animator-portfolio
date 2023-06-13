@@ -98,7 +98,7 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  background-color: var(--button-color);
+  background-color: var(--secondary-bg-color);
   color: var(--secondary-text-color-theme-dark);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -404,6 +404,8 @@ body {
 
 /* ========================== /Header ===================== */
 
+// /* ========================== Hero ===================== */
+
 .hero-style {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -427,6 +429,10 @@ body {
   font-size: 24px;
 }
 
+/* ========================== /Hero ===================== */
+
+/* ========================== Works 1 ===================== */
+
 .works-style {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -443,6 +449,10 @@ body {
   margin-bottom: 50px;
 }
 
+/* ========================== /Works 1 ===================== */
+
+/* ========================== Works 2 ===================== */
+
 .works2-style {
   background-color: var(--secondary-bg-color);
   margin-top: 30px;
@@ -453,6 +463,7 @@ body {
   min-height: auto;
   grid-template-rows: repeat(7, min-content) 1fr;
   grid-template-columns: 100%;
+  padding-bottom: 60px;
 }
 
 .section1 {
@@ -629,4 +640,142 @@ body {
   height: 280px;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+/* ========================== /Works 2 ===================== */
+
+/* ========================== Footer ===================== */
+
+.page-footer-flex {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+}
+
+.left-side-contacts {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.contacts-title {
+  color: #ffffff;
+  margin-bottom: 44px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.contacts-text {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  gap: 16px;
+}
+
+.footer-link {
+  background-color: var(--secondary-icon-bg-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--third-icon-bg-color);
+}
+
+.social-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.social-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--secondary-bg-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-icon {
+  fill: var(--logo-text-color-theme-dark);
+}
+
+.right-side-booking {
+  width: 50%;
+}
+
+.online-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+
+.online-field {
+  position: relative;
+  margin-bottom: 44px;
+}
+
+.online-input {
+  width: 270px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  background-color: transparent;
+  outline: transparent;
+  color: #ffffff;
+  transition: border-color 250ms linear;
+}
+
+.online-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+  transition: transform 250ms linear;
+}
+
+.online-textarea {
+  width: 100%;
+  height: 76px;
+  resize: none;
+}
+
+.online-input:focus {
+  border-color: #ffffff;
+}
+
+.online-input:focus + .online-label {
+  transform: translateY(-100%);
+  color: #9da4bd;
+}
+
+.online-input:not(:placeholder-shown) + .online-label {
+  transform: translateY(-100%);
+  color: #9da4bd;
+}
+
+.online-booking-btn {
+  margin-bottom: 84px;
 }
