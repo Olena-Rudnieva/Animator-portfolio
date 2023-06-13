@@ -442,3 +442,191 @@ body {
 .picture2 {
   margin-bottom: 50px;
 }
+
+.works2-style {
+  background-color: var(--secondary-bg-color);
+  margin-top: 30px;
+  position: static;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: auto;
+  grid-template-rows: repeat(7, min-content) 1fr;
+  grid-template-columns: 100%;
+}
+
+.section1 {
+  position: relative;
+  margin: 8px 0px 18px calc((100% - 980px) * 0.5);
+  left: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration1 {
+  width: 420px;
+  height: 349px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section2 {
+  position: relative;
+  margin: 0px 0px 28px calc((100% - 980px) * 0.5);
+  left: -44px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration2 {
+  width: 408px;
+  height: 495px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section3 {
+  position: relative;
+  margin: 0px 0px 27px calc((100% - 980px) * 0.5);
+  left: -44px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration3 {
+  width: 407px;
+  height: 305px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section4 {
+  position: relative;
+  margin: 0px 0px -163px calc((100% - 980px) * 0.5);
+  left: -44px;
+  grid-area: 4 / 1 / 5 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration4 {
+  width: 494px;
+  height: 476px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section5 {
+  position: relative;
+  margin: 191px 0px -79px calc((100% - 980px) * 0.5);
+  left: 388px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration5 {
+  width: 600px;
+  height: 411px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section6 {
+  position: relative;
+  margin: 0px 0px -169px calc((100% - 980px) * 0.5);
+  left: 433px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration6 {
+  width: 600px;
+  height: 544px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section7 {
+  position: relative;
+  margin: 99px 0px 33px calc((100% - 980px) * 0.5);
+  left: 471px;
+  grid-area: 3 / 1 / 6 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration7 {
+  width: 561px;
+  height: 513px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section8 {
+  position: relative;
+  margin: 0px 0px -70px calc((100% - 980px) * 0.5);
+  left: 471px;
+  grid-area: 6 / 1 / 7 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration8 {
+  width: 561px;
+  height: 561px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section9 {
+  position: relative;
+  margin: 198px 0px 13px calc((100% - 980px) * 0.5);
+  left: 63px;
+  grid-area: 6 / 1 / 7 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration9 {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section10 {
+  position: relative;
+  margin: 0px 0px 13px calc((100% - 980px) * 0.5);
+  left: 63px;
+  grid-area: 7 / 1 / 8 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration10 {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section11 {
+  position: relative;
+  margin: 0px 0px 46px calc((100% - 980px) * 0.5);
+  left: 63px;
+  grid-area: 8 / 1 / 9 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.illustration11 {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
